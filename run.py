@@ -1,6 +1,6 @@
 #! /user/bin/env/ python3
 
-# from user import Credentials , User
+from user import Credentials , User
 
 # def createUser (username,password):
 #     New_user = User(username,password)
