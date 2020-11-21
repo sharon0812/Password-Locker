@@ -41,11 +41,11 @@ class Credentials:
                 return True
         return False        
 
-#     @classmethod
-#     def find_account(cls,account):
-#         for credential in cls.user_credentials:
-#             if credential.account == account:
-#                 return credential
+    @classmethod
+    def find_account(cls,account):
+        for credential in cls.user_credentials:
+            if credential.account == account:
+                return credential
 
 #     @classmethod
 #     def display_credentials(cls):
