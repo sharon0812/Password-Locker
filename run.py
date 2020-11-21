@@ -17,8 +17,8 @@ def create_credentials(account,username, password):
     New_credentials =Credentials(account, username,password)
     return New_credentials
 
-# def save_credentials(credentials) :
-#     Credentials.save_credentials(credentials)
+def save_credentials(credentials) :
+    Credentials.save_credentials(credentials)
 
 # def delete_credentials(credentials):
 #     credentials.delete_credentials()
