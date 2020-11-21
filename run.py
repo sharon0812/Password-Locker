@@ -2,9 +2,9 @@
 
 from user import Credentials , User
 
-# def createUser (username,password):
-#     New_user = User(username,password)
-#     return New_user
+def createUser (username,password):
+    New_user = User(username,password)
+    return New_user
 
 # def logIn (username,password):
 #     real_user = User.real_user(username,password)
