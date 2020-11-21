@@ -10,8 +10,8 @@ def logIn (username,password):
     real_user = User.real_user(username,password)
     return real_user
 
-# def save_user(user):
-#     user.save_user()
+def save_user(user):
+    user.save_user()
 
 # def create_credentials(account,username, password):
 #     New_credentials =Credentials(account, username,password)
