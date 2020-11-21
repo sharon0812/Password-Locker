@@ -47,9 +47,9 @@ class Credentials:
             if credential.account == account:
                 return credential
 
-#     @classmethod
-#     def display_credentials(cls):
-#         return cls.user_credentials
+    @classmethod
+    def display_credentials(cls):
+        return cls.user_credentials
 
 # def gen_password (stringL = 10):
 #             password = string.ascii_uppercase + string.ascii_lowercase + string.digits + "(|/~!.@,)#{?&[%]^}&*"
