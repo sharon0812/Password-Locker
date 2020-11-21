@@ -13,9 +13,9 @@ def logIn (username,password):
 def save_user(user):
     user.save_user()
 
-# def create_credentials(account,username, password):
-#     New_credentials =Credentials(account, username,password)
-#     return New_credentials
+def create_credentials(account,username, password):
+    New_credentials =Credentials(account, username,password)
+    return New_credentials
 
 # def save_credentials(credentials) :
 #     Credentials.save_credentials(credentials)
