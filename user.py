@@ -20,13 +20,13 @@ class User:
                 current_user = user.username
         return current_user        
 
-# class Credentials:
-#     user_credentials = []
+class Credentials:
+    user_credentials = []
 
-#     def __init__ (self,account,username,password):
-#         self.account = account
-#         self.username = username
-#         self.password = password
+    def __init__ (self,account,username,password):
+        self.account = account
+        self.username = username
+        self.password = password
 
 #     def save_credentials(self):
 #         Credentials.user_credentials.append(self)
