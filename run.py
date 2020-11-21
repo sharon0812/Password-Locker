@@ -6,9 +6,9 @@ def createUser (username,password):
     New_user = User(username,password)
     return New_user
 
-# def logIn (username,password):
-#     real_user = User.real_user(username,password)
-#     return real_user
+def logIn (username,password):
+    real_user = User.real_user(username,password)
+    return real_user
 
 # def save_user(user):
 #     user.save_user()
