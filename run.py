@@ -23,18 +23,18 @@ def save_credentials(credentials) :
 def delete_credentials(credentials):
     credentials.delete_credentials()
 
-# def display_credentials():
-#     return Credentials.display_credentials()
+def display_credentials():
+    return Credentials.display_credentials()
 
-# def Credentialsuser_exist(account):
-#     return Credentials.credentialsuser_exist(account)
+def Credentialsuser_exist(account):
+    return Credentials.credentialsuser_exist(account)
 
-# def find_account(account):
-#     return Credentials.find_account(account)
+def find_account(account):
+    return Credentials.find_account(account)
 
-# def gen_password():
-#     gen_password =Credentials.gen_password()
-#     return gen_password
+def gen_password():
+    gen_password = Credentials.gen_password()
+    return gen_password
 
 # def main():
 #     while True:
