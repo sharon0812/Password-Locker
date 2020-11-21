@@ -20,8 +20,8 @@ def create_credentials(account,username, password):
 def save_credentials(credentials) :
     Credentials.save_credentials(credentials)
 
-# def delete_credentials(credentials):
-#     credentials.delete_credentials()
+def delete_credentials(credentials):
+    credentials.delete_credentials()
 
 # def display_credentials():
 #     return Credentials.display_credentials()
