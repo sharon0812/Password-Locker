@@ -28,11 +28,11 @@ class Credentials:
         self.username = username
         self.password = password
 
-#     def save_credentials(self):
-#         Credentials.user_credentials.append(self)
+    def save_credentials(self):
+        Credentials.user_credentials.append(self)
 
-#     def delete_credentials(self):
-#         Credentials.user_credentials.remove(self)
+    def delete_credentials(self):
+        Credentials.user_credentials.remove(self)
 
 #     @classmethod
 #     def credentialsuser_exist(cls,account):
