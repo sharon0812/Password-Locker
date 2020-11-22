@@ -1,7 +1,7 @@
 #! /user/bin/env/ python3
 
-from user import Credentials , User
-
+from user import Credentials
+from user import User
 def createUser (username,password):
     New_user = User(username,password)
     return New_user
@@ -32,7 +32,7 @@ def Credentialsuser_exist(account):
 def find_account(account):
     return Credentials.find_account(account)
 
-def gen_password():
+def gen_password(self):
     gen_password = Credentials.gen_password()
     return gen_password
 
