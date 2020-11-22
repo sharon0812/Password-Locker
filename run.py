@@ -32,7 +32,7 @@ def Credentialsuser_exist(account):
 def find_account(account):
     return Credentials.find_account(account)
 
-def gen_password(self):
+def gen_password():
     gen_password = Credentials.gen_password()
     return gen_password
 
@@ -44,7 +44,7 @@ def main():
         if userinput  == "ca":
             print("Enter new account details")
             username = input("enter your username: ")
-            # while True:
+           
             print("use E to enter password, use G to generate password, and X to exit")
             password = input().lower()
             if password == "e":

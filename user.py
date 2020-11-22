@@ -51,7 +51,7 @@ class Credentials:
     def display_credentials(cls):
         return cls.user_credentials
 
-    def gen_password (self, stringL = 10):
+    def gen_password (stringL = 10):
                     password = string.ascii_uppercase + string.ascii_lowercase + string.digits + "(|/~!.@,)#{?&[%]^}&*"
                     return ''.join(random.choice(password) for i in range (stringL))
 
